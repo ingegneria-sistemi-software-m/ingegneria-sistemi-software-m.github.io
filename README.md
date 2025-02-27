@@ -33,9 +33,9 @@ Un'**organization** su GitHub è composta da un gruppo di persone che collaboran
 Quando il professore aggiorna la sua repository, anche la copia forkata nella nostra organizzation deve cambiare di conseguenza. Qualunque membro del team può mettere le due repository in pari coi seguenti comandi:
 
 ```bash
-git fetch upstreamgit fetch upstream
-git checkout main
-git merge --ff-only upstream/main
+git fetch upstream
+git merge upstream/main
+git commit -am "Merge upstream changes"
 git push origin main
 ```
 
