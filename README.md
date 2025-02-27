@@ -27,3 +27,17 @@ Un'**organization** su GitHub è composta da un gruppo di persone che collaboran
 2. Tutti hanno permesso di scrittura sulla repository del progetto di gruppo.
 
 3. Solo i proprietari hanno permesso di scrittura sulle proprie repository.
+
+## Aggiornamento Repository di Riferimento
+
+Quando il professore aggiorna la sua repository, anche la copia forkata nella nostra organizzation deve cambiare di conseguenza. Qualunque membro del team può mettere le due repository in pari coi seguenti comandi:
+
+```bash
+git fetch upstreamgit fetch upstream
+git checkout main
+git merge --ff-only upstream/main
+git push origin main
+```
+
+La premessa chiaramente è che nessuno modifichi la repository del professore!
+Nella sfortunata eventualità che la directory venga modificata i comandi possono essere più complessi.
