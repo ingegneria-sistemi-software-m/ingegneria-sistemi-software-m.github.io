@@ -4,6 +4,12 @@
 
 Anno Accademico: 2024/2025
 
+## Membri del Team
+
++ Bertozzi Pietro    [Repo Personale](https://github.com/ingegneria-sistemi-software-m/ingegneria-sistemi-software-m-pietro-bertozzi)
++ Koltraka Kevin     [Repo Personale](https://github.com/ingegneria-sistemi-software-m/ISS_koltraka)
++ La Rocca Andrea [Repo Personale](https://github.com/ingegneria-sistemi-software-m/Ingegneria-dei-Sistemi-Software-m-Andrea-La-Rocca)
+
 # Organizzazione del Lavoro
 
 Questa repository fa parte dell'organizzazion GitHub Ingegneria dei Sistemi Software M - Slow and Steady (ISSSS). Qui di seguito sono descritti i principi base per gestire il flusso di lavoro all'interno dell'organizzazione.
@@ -35,7 +41,7 @@ Quando il professore aggiorna la sua repository, anche la copia forkata nella no
 ```bash
 git fetch upstream
 git merge upstream/main
-git commit -am "Merge upstream changes"
+git commit -am "merge upstream changes"
 git push origin main
 ```
 
